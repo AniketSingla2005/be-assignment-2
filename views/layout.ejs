@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %> | CyberBlog</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="/">CyberBlog</a>
+            </div>
+            <div class="nav-links">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/posts" class="nav-link">Posts</a>
+                <a href="/add-post" class="nav-link">New Post</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <%- body %>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; <%= new Date().getFullYear() %> CyberBlog. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

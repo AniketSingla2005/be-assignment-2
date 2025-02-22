@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Test Blog 1",
+      "content": "Testing",
+      "excerpt": "Test is done",
+      "author": "Aniket Singla",
+      "createdAt": "2025-02-20T16:14:29.688Z",
+      "readingTime": 1
+    },
+    {
+      "id": 2,
+      "title": "Test Blog 2",
+      "content": "Testing 2",
+      "excerpt": "Testing is completed",
+      "author": "Random",
+      "createdAt": "2025-02-21T03:21:46.603Z",
+      "readingTime": 1
+    },
+    {
+      "id": 3,
+      "title": "Book",
+      "content": "Harry Potter",
+      "excerpt": "Harry is an orphan",
+      "author": "J.K. Rowling",
+      "createdAt": "2025-02-21T04:05:53.254Z",
+      "readingTime": 1
+    },
+    {
+      "id": 4,
+      "title": "Percy Jackson",
+      "content": "Son of a greek god",
+      "excerpt": "A modern hero and a demigod",
+      "author": "Rick Riordan",
+      "createdAt": "2025-02-21T04:05:53.254Z",
+      "readingTime": 1
+    }
+  ]
+}

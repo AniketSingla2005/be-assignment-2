@@ -1,0 +1,24 @@
+<section class="hero">
+    <div class="hero-content">
+        <h1>Welcome to CyberBlog</h1>
+        <p>Explore the digital frontier</p>
+    </div>
+</section>
+
+<section class="featured-posts">
+    <h2>Featured Articles</h2>
+    <div class="posts-grid">
+        <% featuredPosts.forEach(post => { %>
+            <article class="post-card">
+                <h3><a href="/post?id=<%= post.id %>"><%= post.title %></a></h3>
+                <p class="post-meta">
+                    <%= post.author %> • 
+                    <%= formatDate(new Date(post.createdAt), 'MMM d, yyyy') %> • 
+                    <%= post.readingTime %> min
+                </p>
+                <p class="post-excerpt"><%= post.excerpt %></p>
+                <a href="/post?id=<%= post.id %>" class="read-more">Read More</a>
+            </article>
+        <% }); %>
+    </div>
+</section>
